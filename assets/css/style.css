@@ -3,6 +3,7 @@ body{
 	background-image: url(../images/ep_naturalblack.png);
 	background-repeat: repeat;
 	margin-bottom: 30px;
+
 }
 .all-content{
 	width: 960px;
@@ -101,10 +102,11 @@ a:hover{
 	font-size: 17px;
 	font-weight: 300;
 	color:#777777;
-	text-align: right;
+
 }
 .nav-list ul{
 	float:right;
+
 }
 .icons{
 	width:240px;
@@ -196,3 +198,281 @@ button{
 	font-size: 20px;
 }
 
+@media screen and  (max-width:980px) {
+	.top-nav{
+	width:980px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+	.nav-contents{
+	width:900px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.nav-name{
+	width:200px;
+	float:left;
+	}
+	.nav-name h1{
+	font-size:25px;
+	}
+	.nav-list ul{
+	float:right;
+	}
+	.all-content{
+	width: 900px;
+	padding-right: 100px;
+	padding-left: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.main{
+	width:500px;
+	padding: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+	.connect{
+	width:270px;
+	height:150px;
+	margin-left: 30px;
+	background: #ffffff;
+
+
+
+	}
+	#folio-wrap{
+	width:510px;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+	.Folio-item{
+	width: 510px;
+	height: 300px;
+	padding: 0px;
+	margin-top: 10px;
+	}
+	.Folio-item img{
+	width: 500px;
+	height: 300px;
+	padding: 0px;
+	}
+	.Folio-item h3{
+	width: 500px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	form input{
+		width: 500px;
+	}
+	form textarea{
+		width: 500px;
+	}
+}
+
+
+
+@media screen and  (max-width:768px) {
+	.top-nav{
+	width:768px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+	.nav-contents{
+	width:700px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.nav-name{
+	width:200px;
+	float:left;
+	}
+	.nav-name h1{
+	font-size:25px;
+	}
+	.nav-list ul{
+	float:right;
+	}
+	.all-content{
+	width: 660px;
+	padding-left: 90px;
+	padding-right: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.main{
+	width:660px;
+	padding: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+	.connect{
+	width:660px;
+	padding: 20px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	height:150px;
+	text-align: left;
+	background: #ffffff;
+
+	}
+	.connect h1{
+		text-align: left;
+	}
+	.icons{
+		margin-left: 0px;
+	}
+	#folio-wrap{
+	width:660px;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+	.Folio-item{
+	width: 300px;
+	height: 200px;
+	padding: 0px;
+	margin-left: 20px;
+	margin-top: 10px;
+	}
+	.Folio-item img{
+	width: 300px;
+	height: 200px;
+	padding: 0px;
+	}
+	.Folio-item h3{
+	width: 300px;
+	margin-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	form input{
+		width: 650px;
+	}
+	form textarea{
+		width: 650px;
+	}
+	footer{
+		width: 768px;
+	}
+}
+
+
+
+
+@media screen and  (max-width:640px) {
+	
+	.top-nav{
+		width: 100%;
+		height:100px;
+		background: #fff;
+		padding:0px;
+		display: block;
+		
+
+	}
+	.nav-contents{
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+		height:200px;
+	}
+	.nav-name{
+		top:0;
+		opacity: .5;
+		padding: 20px;
+		width:100%;
+		display:block;
+		left:0px;
+		right:0px;
+	}
+	.nav-name h1{
+	
+		font-size:25px;
+	}
+	.nav-list{
+		padding-top: 100px;
+		background-color: #000;
+		width: 100%;
+		padding:20px 20px 40px 20px; 
+		margin-left: auto;
+		margin-right:auto;
+		text-align: center;
+	}
+	.nav-list ul{
+		width: 300px;
+		margin-left: auto;
+		margin-right:auto;
+		display: block;
+		
+		
+	}
+	.all-content{
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+	}
+
+	.main{
+		width:400px;
+		padding: 20px;
+		margin-left: auto;
+		margin-right:auto;
+		background-color: #ffffff;
+	}
+	.connect{
+		width:400px;
+		background: #ffffff;
+		padding:20px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	#folio-wrap{
+		width:300px
+		margin-left:auto;
+		margin-right: auto;
+	
+	}
+	.Folio-item{
+		width: 400px;
+		height: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right:auto;background-size: contain;
+
+	}
+	.Folio-item img{
+		width: 400px;
+		height: 300px;
+		margin-top: 10px;
+
+		
+	
+	}
+	.Folio-item h3{
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	form input{
+		width: 550px;
+	}
+	form textarea{
+		width: 550px;
+	}
+	footer{
+		width: 100%;
+		height:50px;
+	}
+}
